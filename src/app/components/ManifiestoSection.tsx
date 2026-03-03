@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'motion/react';
 
-const WEAVER_IMG = '/img/bl.jpg';
+const WEAVER_IMG = `${import.meta.env.BASE_URL}bl.jpg`;
 
 function AnimLine({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const ref = useRef<HTMLDivElement>(null);

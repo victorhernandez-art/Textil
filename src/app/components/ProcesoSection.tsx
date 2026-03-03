@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'motion/react';
 
-const IMG_EMBROIDERY_THREAD = '/img/ver.png';
+const IMG_EMBROIDERY_THREAD = `${import.meta.env.BASE_URL}ver.png`;
 
 const steps = [
   {

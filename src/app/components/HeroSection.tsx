@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ArrowDown } from 'lucide-react';
 
-const HERO_IMG = '/img/prendas.jpg';
+const HERO_IMG = `${import.meta.env.BASE_URL}prendas.jpg`;
 
 export function HeroSection() {
   const containerRef = useRef<HTMLDivElement>(null);
