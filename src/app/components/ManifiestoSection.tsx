@@ -68,13 +68,13 @@ export function ManifiestoSection() {
                 {/* Color wash */}
                 <div
                   className="absolute inset-0"
-                  style={{ background: 'linear-gradient(to bottom, transparent 60%, rgba(97,43,189,0.4))' }}
+                  style={{ background: 'linear-gradient(to bottom, transparent 60%, rgba(89,12,138,0.4))' }}
                 />
               </div>
               {/* Label */}
               <div
                 className="absolute bottom-6 left-6 px-4 py-2"
-                style={{ background: 'rgba(97,43,189,0.55)', backdropFilter: 'blur(8px)' }}
+                style={{ background: 'rgba(89,12,138,0.55)', backdropFilter: 'blur(8px)' }}
               >
                 <p
                   className="text-[#D4A034] uppercase tracking-widest"
@@ -105,7 +105,7 @@ export function ManifiestoSection() {
                   fontSize: 'clamp(2.2rem, 4.5vw, 3.6rem)',
                   fontWeight: 600,
                   lineHeight: 1.1,
-                  color: '#612BBD',
+                  color: '#590C8A',
                 }}
               >
                 Tradición que
@@ -118,7 +118,7 @@ export function ManifiestoSection() {
                   fontSize: 'clamp(2.2rem, 4.5vw, 3.6rem)',
                   fontWeight: 600,
                   lineHeight: 1.1,
-                  color: '#612BBD',
+                  color: '#590C8A',
                   fontStyle: 'italic',
                 }}
               >

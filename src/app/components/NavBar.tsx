@@ -1,4 +1,4 @@
-﻿import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X } from 'lucide-react';
 
@@ -35,7 +35,7 @@ export function NavBar() {
         className="fixed top-0 left-0 right-0 z-50 transition-all duration-500"
         style={{
           background: scrolled
-            ? 'rgba(97,43,189, 0.92)'
+            ? 'rgba(89,12,138, 0.92)'
             : 'transparent',
           backdropFilter: scrolled ? 'blur(16px)' : 'none',
           borderBottom: scrolled ? '1px solid rgba(212, 160, 52, 0.2)' : 'none',
@@ -80,7 +80,7 @@ export function NavBar() {
           <div className="hidden md:block">
             <button
               onClick={() => handleNavClick('#contacto')}
-              className="px-6 py-2.5 border border-[#D4A034] text-[#D4A034] hover:bg-[#D4A034] hover:text-[#612BBD] transition-all duration-300 tracking-widest uppercase cursor-pointer"
+              className="px-6 py-2.5 border border-[#D4A034] text-[#D4A034] hover:bg-[#D4A034] hover:text-[#590C8A] transition-all duration-300 tracking-widest uppercase cursor-pointer"
               style={{ fontFamily: 'var(--font-sans)', fontSize: '0.65rem', letterSpacing: '0.18em' }}
             >
               Comprar
@@ -106,7 +106,7 @@ export function NavBar() {
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
             className="fixed inset-0 z-40 flex flex-col justify-center items-center"
-            style={{ background: 'rgba(97,43,189, 0.97)' }}
+            style={{ background: 'rgba(89,12,138, 0.97)' }}
           >
             <div className="flex flex-col gap-8 items-center">
               {navLinks.map((link, i) => (

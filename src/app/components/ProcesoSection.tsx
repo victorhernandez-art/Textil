@@ -131,7 +131,7 @@ export function ProcesoSection() {
       id="proceso"
       ref={sectionRef}
       className="relative overflow-hidden"
-      style={{ background: '#612BBD', padding: 'clamp(80px, 12vw, 140px) 0' }}
+      style={{ background: '#590C8A', padding: 'clamp(80px, 12vw, 140px) 0' }}
     >
       {/* Subtle texture overlay */}
       <div
@@ -219,7 +219,7 @@ export function ProcesoSection() {
                 <div
                   className="absolute inset-0"
                   style={{
-                    background: 'linear-gradient(135deg, rgba(97,43,189,0.4) 0%, transparent 60%)',
+                    background: 'linear-gradient(135deg, rgba(89,12,138,0.4) 0%, transparent 60%)',
                   }}
                 />
                 {/* Accent border */}
@@ -231,7 +231,7 @@ export function ProcesoSection() {
                 {/* Info card */}
                 <div
                   className="absolute bottom-0 left-0 right-0 p-6"
-                  style={{ background: 'linear-gradient(to top, rgba(97,43,189,0.65), transparent)' }}
+                  style={{ background: 'linear-gradient(to top, rgba(89,12,138,0.65), transparent)' }}
                 >
                   <p
                     className="text-[#D4A034] uppercase tracking-widest mb-1"

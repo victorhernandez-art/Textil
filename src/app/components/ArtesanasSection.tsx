@@ -42,7 +42,7 @@ export function ArtesanasSection() {
       <div
         className="absolute inset-0"
         style={{
-          background: 'linear-gradient(to right, rgba(20,8,60,0.93) 0%, rgba(97,43,189,0.80) 35%, rgba(97,43,189,0.35) 65%, rgba(97,43,189,0.05) 100%)',
+          background: 'linear-gradient(to right, rgba(20,8,60,0.93) 0%, rgba(89,12,138,0.80) 35%, rgba(89,12,138,0.35) 65%, rgba(89,12,138,0.05) 100%)',
         }}
       />
       <div
@@ -127,7 +127,7 @@ export function ArtesanasSection() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.4 + i * 0.08 }}
                   className="px-4 py-4"
-                  style={{ border: '1px solid rgba(212,160,52,0.2)', background: 'rgba(97,43,189,0.4)', backdropFilter: 'blur(8px)' }}
+                  style={{ border: '1px solid rgba(212,160,52,0.2)', background: 'rgba(89,12,138,0.4)', backdropFilter: 'blur(8px)' }}
                 >
                   <div
                     style={{ fontFamily: 'var(--font-heading)', fontSize: '1.7rem', fontWeight: 600, color: '#D4A034', lineHeight: 1 }}
@@ -162,7 +162,7 @@ export function ArtesanasSection() {
                 transition={{ delay: 0.35 + i * 0.1 }}
                 className="flex items-center justify-between px-6 py-5 group hover:border-[#D4A034]/50 transition-colors cursor-pointer"
                 style={{
-                  background: 'rgba(97,43,189,0.55)',
+                  background: 'rgba(89,12,138,0.55)',
                   backdropFilter: 'blur(12px)',
                   borderLeft: '2px solid rgba(212,160,52,0.2)',
                 }}
@@ -209,7 +209,7 @@ export function ArtesanasSection() {
                 fontSize: '0.62rem',
                 letterSpacing: '0.2em',
                 background: '#D4A034',
-                color: '#612BBD',
+                color: '#590C8A',
               }}
             >
               Conocer a Todas las Artesanas

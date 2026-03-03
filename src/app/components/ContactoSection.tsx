@@ -20,7 +20,7 @@ export function ContactoSection() {
   return (
     <section
       id="contacto"
-      style={{ background: '#612BBD', padding: 'clamp(80px, 12vw, 140px) 0' }}
+      style={{ background: '#590C8A', padding: 'clamp(80px, 12vw, 140px) 0' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
@@ -235,18 +235,18 @@ export function ContactoSection() {
                   onChange={handleChange}
                   className="px-4 py-3.5 text-white/90 outline-none focus:border-[#D4A034] transition-colors cursor-pointer"
                   style={{
-                    background: '#612BBD',
+                    background: '#590C8A',
                     border: '1px solid rgba(255,255,255,0.1)',
                     fontFamily: 'var(--font-body)',
                     fontSize: '0.88rem',
                   }}
                 >
-                  <option value="" style={{ background: '#612BBD' }}>Selecciona una opción...</option>
-                  <option value="compra" style={{ background: '#612BBD' }}>Quiero comprar una pieza</option>
-                  <option value="mayoreo" style={{ background: '#612BBD' }}>Compra al mayoreo / tienda</option>
-                  <option value="personalizada" style={{ background: '#612BBD' }}>Pieza personalizada</option>
-                  <option value="colaboracion" style={{ background: '#612BBD' }}>Colaboración / alianza</option>
-                  <option value="otro" style={{ background: '#612BBD' }}>Otro</option>
+                  <option value="" style={{ background: '#590C8A' }}>Selecciona una opción...</option>
+                  <option value="compra" style={{ background: '#590C8A' }}>Quiero comprar una pieza</option>
+                  <option value="mayoreo" style={{ background: '#590C8A' }}>Compra al mayoreo / tienda</option>
+                  <option value="personalizada" style={{ background: '#590C8A' }}>Pieza personalizada</option>
+                  <option value="colaboracion" style={{ background: '#590C8A' }}>Colaboración / alianza</option>
+                  <option value="otro" style={{ background: '#590C8A' }}>Otro</option>
                 </select>
               </div>
 
@@ -282,7 +282,7 @@ export function ContactoSection() {
                 className="w-full py-4 flex items-center justify-center gap-3 uppercase tracking-widest cursor-pointer border-none transition-all duration-300"
                 style={{
                   background: sent ? '#2D5D3F' : '#D4A034',
-                  color: '#612BBD',
+                  color: '#590C8A',
                   fontFamily: 'var(--font-sans)',
                   fontSize: '0.65rem',
                   letterSpacing: '0.2em',

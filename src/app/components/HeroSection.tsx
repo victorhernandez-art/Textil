@@ -39,7 +39,7 @@ export function HeroSection() {
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(to right, rgba(97,43,189,0.92) 0%, rgba(97,43,189,0.78) 30%, rgba(97,43,189,0.35) 60%, rgba(97,43,189,0.05) 100%)',
+              'linear-gradient(to right, rgba(89,12,138,0.92) 0%, rgba(89,12,138,0.78) 30%, rgba(89,12,138,0.35) 60%, rgba(89,12,138,0.05) 100%)',
           }}
         />
         {/* Bottom fade */}
@@ -147,7 +147,7 @@ export function HeroSection() {
           <div className="flex items-center gap-4">
             <button
               onClick={scrollToColecciones}
-              className="px-7 py-3.5 text-[#612BBD] uppercase tracking-widest cursor-pointer border-none transition-all duration-300 hover:opacity-90 active:scale-95"
+              className="px-7 py-3.5 text-[#590C8A] uppercase tracking-widest cursor-pointer border-none transition-all duration-300 hover:opacity-90 active:scale-95"
               style={{
                 fontFamily: 'var(--font-sans)',
                 fontSize: '0.65rem',
@@ -203,7 +203,7 @@ export function HeroSection() {
             <div
               key={s.n}
               className="px-6 py-4 flex flex-col items-center"
-              style={{ background: 'rgba(97,43,189,0.7)', borderColor: 'rgba(212,160,52,0.2)' }}
+              style={{ background: 'rgba(89,12,138,0.7)', borderColor: 'rgba(212,160,52,0.2)' }}
             >
               <span
                 className="text-[#D4A034]"

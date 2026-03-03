@@ -79,7 +79,7 @@ function CollectionCard({ col, index }: { col: Collection; index: number }) {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="group relative flex flex-col overflow-hidden cursor-pointer"
-      style={{ background: '#612BBD' }}
+      style={{ background: '#590C8A' }}
     >
       {/* Image */}
       <div className="relative overflow-hidden" style={{ height: 'clamp(260px, 35vw, 380px)' }}>
@@ -198,7 +198,7 @@ export function ColeccionesSection() {
                   fontSize: 'clamp(2.5rem, 5.5vw, 4.5rem)',
                   fontWeight: 600,
                   lineHeight: 1,
-                  color: '#612BBD',
+                  color: '#590C8A',
                 }}
               >
                 Colecciones
@@ -253,7 +253,7 @@ export function ColeccionesSection() {
         >
           <button
             onClick={() => setCatalogoOpen(true)}
-            className="px-10 py-4 border-2 border-[#612BBD] text-[#612BBD] hover:bg-[#612BBD] hover:text-[#FAF8F3] transition-all duration-400 uppercase tracking-widest cursor-pointer"
+            className="px-10 py-4 border-2 border-[#590C8A] text-[#590C8A] hover:bg-[#590C8A] hover:text-[#FAF8F3] transition-all duration-400 uppercase tracking-widest cursor-pointer"
             style={{ fontFamily: 'var(--font-sans)', fontSize: '0.65rem', letterSpacing: '0.2em' }}
           >
             Ver Catálogo Completo

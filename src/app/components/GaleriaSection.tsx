@@ -54,7 +54,7 @@ export function GaleriaSection() {
                 fontFamily: 'var(--font-heading)',
                 fontSize: 'clamp(2.5rem, 5.5vw, 4.5rem)',
                 fontWeight: 600,
-                color: '#612BBD',
+                color: '#590C8A',
                 lineHeight: 1,
               }}
             >
@@ -100,7 +100,7 @@ export function GaleriaSection() {
             onClick={() => setLightbox(images[0])}
           >
             <img src={images[0].src} alt={images[0].caption} className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-[#612BBD]/0 group-hover:bg-[#612BBD]/40 transition-all duration-400 flex items-center justify-center">
+            <div className="absolute inset-0 bg-[#590C8A]/0 group-hover:bg-[#590C8A]/40 transition-all duration-400 flex items-center justify-center">
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileHover={{ opacity: 1, scale: 1 }}
@@ -109,7 +109,7 @@ export function GaleriaSection() {
                 <ZoomIn className="text-white" size={32} />
               </motion.div>
             </div>
-            <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300" style={{ background: 'rgba(97,43,189,0.8)' }}>
+            <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300" style={{ background: 'rgba(89,12,138,0.8)' }}>
               <p className="text-white/80" style={{ fontFamily: 'var(--font-body)', fontSize: '0.8rem' }}>{images[0].caption}</p>
             </div>
           </motion.div>
@@ -127,10 +127,10 @@ export function GaleriaSection() {
               onClick={() => setLightbox(img)}
             >
               <img src={img.src} alt={img.caption} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-[#612BBD]/0 group-hover:bg-[#612BBD]/40 transition-all duration-400 flex items-center justify-center">
+              <div className="absolute inset-0 bg-[#590C8A]/0 group-hover:bg-[#590C8A]/40 transition-all duration-400 flex items-center justify-center">
                 <ZoomIn className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={24} />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300" style={{ background: 'rgba(97,43,189,0.8)' }}>
+              <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300" style={{ background: 'rgba(89,12,138,0.8)' }}>
                 <p className="text-white/80" style={{ fontFamily: 'var(--font-body)', fontSize: '0.75rem' }}>{img.caption}</p>
               </div>
             </motion.div>
@@ -146,7 +146,7 @@ export function GaleriaSection() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-10"
-            style={{ background: 'rgba(97,43,189,0.95)' }}
+            style={{ background: 'rgba(89,12,138,0.95)' }}
             onClick={() => setLightbox(null)}
           >
             <motion.div

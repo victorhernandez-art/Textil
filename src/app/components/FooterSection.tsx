@@ -56,7 +56,7 @@ export function FooterSection() {
             className="px-8 py-3 uppercase tracking-widest cursor-pointer border-none transition-all duration-300 hover:opacity-90"
             style={{
               background: '#D4A034',
-              color: '#612BBD',
+              color: '#590C8A',
               fontFamily: 'var(--font-sans)',
               fontSize: '0.62rem',
               letterSpacing: '0.2em',
@@ -172,7 +172,7 @@ export function FooterSection() {
               className="px-5 py-3 uppercase tracking-widest cursor-pointer border-none"
               style={{
                 background: '#D4A034',
-                color: '#612BBD',
+                color: '#590C8A',
                 fontFamily: 'var(--font-sans)',
                 fontSize: '0.58rem',
                 letterSpacing: '0.18em',

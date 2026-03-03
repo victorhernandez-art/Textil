@@ -235,7 +235,7 @@ function ProductCard({ prenda, onClick }: { prenda: Prenda; onClick: () => void 
           className="absolute inset-0"
           animate={{ opacity: hov ? 0.3 : 0 }}
           transition={{ duration: 0.3 }}
-          style={{ background: 'linear-gradient(to top, #612BBD 0%, transparent 60%)' }}
+          style={{ background: 'linear-gradient(to top, #590C8A 0%, transparent 60%)' }}
         />
         {/* Tag */}
         {prenda.tag && (
@@ -255,8 +255,8 @@ function ProductCard({ prenda, onClick }: { prenda: Prenda; onClick: () => void 
           transition={{ duration: 0.25 }}
           style={{ background: 'rgba(250,248,243,0.95)' }}
         >
-          <span style={{ fontFamily: 'var(--font-sans)', fontSize: '0.55rem', letterSpacing: '0.15em', color: '#612BBD', textTransform: 'uppercase' }}>Ver detalle</span>
-          <ArrowUpRight size={11} color="#612BBD" />
+          <span style={{ fontFamily: 'var(--font-sans)', fontSize: '0.55rem', letterSpacing: '0.15em', color: '#590C8A', textTransform: 'uppercase' }}>Ver detalle</span>
+          <ArrowUpRight size={11} color="#590C8A" />
         </motion.div>
       </div>
 
@@ -265,14 +265,14 @@ function ProductCard({ prenda, onClick }: { prenda: Prenda; onClick: () => void 
         <p style={{ fontFamily: 'var(--font-sans)', fontSize: '0.55rem', letterSpacing: '0.2em', color: prenda.accent, textTransform: 'uppercase', marginBottom: 4 }}>
           {prenda.categoria} · {prenda.comunidad}
         </p>
-        <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.15rem', fontWeight: 600, color: '#612BBD', lineHeight: 1.2 }}>
+        <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.15rem', fontWeight: 600, color: '#590C8A', lineHeight: 1.2 }}>
           {prenda.nombre}
         </h3>
         <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.78rem', color: '#4A3728', marginTop: 2 }}>
           {prenda.artesana}
         </p>
         <div className="flex items-center justify-between mt-3">
-          <span style={{ fontFamily: 'var(--font-heading)', fontSize: '1.1rem', fontWeight: 700, color: '#612BBD' }}>
+          <span style={{ fontFamily: 'var(--font-heading)', fontSize: '1.1rem', fontWeight: 700, color: '#590C8A' }}>
             {prenda.precio}
           </span>
           <span style={{ fontFamily: 'var(--font-sans)', fontSize: '0.5rem', letterSpacing: '0.1em', textTransform: 'uppercase', color: '#9A7B6A' }}>
@@ -299,7 +299,7 @@ function ProductDetail({ prenda, onClose }: { prenda: Prenda; onClose: () => voi
       <button
         onClick={onClose}
         className="absolute top-6 left-6 flex items-center gap-2 z-20 cursor-pointer bg-transparent border-none"
-        style={{ fontFamily: 'var(--font-sans)', fontSize: '0.6rem', letterSpacing: '0.15em', color: '#612BBD', textTransform: 'uppercase' }}
+        style={{ fontFamily: 'var(--font-sans)', fontSize: '0.6rem', letterSpacing: '0.15em', color: '#590C8A', textTransform: 'uppercase' }}
       >
         <ChevronLeft size={14} />
         Volver
@@ -332,7 +332,7 @@ function ProductDetail({ prenda, onClose }: { prenda: Prenda; onClose: () => voi
           </span>
         </div>
 
-        <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, color: '#612BBD', lineHeight: 1.1, marginBottom: 8 }}>
+        <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(2rem, 4vw, 3rem)', fontWeight: 600, color: '#590C8A', lineHeight: 1.1, marginBottom: 8 }}>
           {prenda.nombre}
         </h2>
 
@@ -347,7 +347,7 @@ function ProductDetail({ prenda, onClose }: { prenda: Prenda; onClose: () => voi
           </div>
         </div>
 
-        <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', lineHeight: 1.9, color: '#612BBD', marginBottom: 20 }}>
+        <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.95rem', lineHeight: 1.9, color: '#590C8A', marginBottom: 20 }}>
           {prenda.descripcion}
         </p>
 
@@ -365,7 +365,7 @@ function ProductDetail({ prenda, onClose }: { prenda: Prenda; onClose: () => voi
 
         {/* Price + CTA */}
         <div className="flex items-center gap-6 flex-wrap">
-          <span style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 700, color: '#612BBD' }}>
+          <span style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', fontWeight: 700, color: '#590C8A' }}>
             {prenda.precio}
           </span>
           <a
@@ -416,7 +416,7 @@ export function CatalogoModal({ open, onClose }: CatalogoModalProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            style={{ background: 'rgba(97,43,189,0.7)', backdropFilter: 'blur(4px)' }}
+            style={{ background: 'rgba(89,12,138,0.7)', backdropFilter: 'blur(4px)' }}
             onClick={onClose}
           />
 
@@ -430,13 +430,13 @@ export function CatalogoModal({ open, onClose }: CatalogoModalProps) {
             transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
           >
             {/* Header */}
-            <div className="flex items-center justify-between px-8 py-6 flex-shrink-0" style={{ borderBottom: '1px solid rgba(97,43,189,0.1)' }}>
+            <div className="flex items-center justify-between px-8 py-6 flex-shrink-0" style={{ borderBottom: '1px solid rgba(89,12,138,0.1)' }}>
               <div className="flex items-center gap-6">
                 <div>
                   <span style={{ fontFamily: 'var(--font-sans)', fontSize: '0.55rem', letterSpacing: '0.3em', color: '#B8342A', textTransform: 'uppercase' }}>
                     Catálogo Completo
                   </span>
-                  <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(1.4rem, 3vw, 2rem)', fontWeight: 600, color: '#612BBD', lineHeight: 1 }}>
+                  <h2 style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(1.4rem, 3vw, 2rem)', fontWeight: 600, color: '#590C8A', lineHeight: 1 }}>
                     Prendas &amp; Textiles
                   </h2>
                 </div>
@@ -448,21 +448,21 @@ export function CatalogoModal({ open, onClose }: CatalogoModalProps) {
                 onClick={onClose}
                 title="Cerrar catálogo"
                 className="w-10 h-10 flex items-center justify-center cursor-pointer bg-transparent border-none hover:bg-[#F5F1E8] transition-colors"
-                style={{ color: '#612BBD' }}
+                style={{ color: '#590C8A' }}
               >
                 <X size={20} />
               </button>
             </div>
 
             {/* Filters */}
-            <div className="flex items-center gap-2 px-8 py-4 flex-shrink-0 overflow-x-auto" style={{ borderBottom: '1px solid rgba(97,43,189,0.08)' }}>
+            <div className="flex items-center gap-2 px-8 py-4 flex-shrink-0 overflow-x-auto" style={{ borderBottom: '1px solid rgba(89,12,138,0.08)' }}>
               {categorias.map(cat => (
                 <motion.button
                   key={cat}
                   onClick={() => { setCategoria(cat); setSelected(null); }}
                   className="cursor-pointer flex-shrink-0 px-5 py-2 transition-colors"
                   animate={{
-                    background: categoria === cat ? '#612BBD' : 'transparent',
+                    background: categoria === cat ? '#590C8A' : 'transparent',
                     color: categoria === cat ? '#FAF8F3' : '#4A3728',
                   }}
                   style={{
@@ -471,7 +471,7 @@ export function CatalogoModal({ open, onClose }: CatalogoModalProps) {
                     letterSpacing: '0.15em',
                     textTransform: 'uppercase',
                     border: '1px solid',
-                    borderColor: categoria === cat ? '#612BBD' : 'rgba(97,43,189,0.2)',
+                    borderColor: categoria === cat ? '#590C8A' : 'rgba(89,12,138,0.2)',
                   }}
                 >
                   {cat}
@@ -505,7 +505,7 @@ export function CatalogoModal({ open, onClose }: CatalogoModalProps) {
             {/* Footer */}
             <div
               className="flex-shrink-0 flex items-center justify-between px-8 py-4"
-              style={{ borderTop: '1px solid rgba(97,43,189,0.1)', background: '#F5F1E8' }}
+              style={{ borderTop: '1px solid rgba(89,12,138,0.1)', background: '#F5F1E8' }}
             >
               <p style={{ fontFamily: 'var(--font-body)', fontSize: '0.75rem', color: '#9A7B6A' }}>
                 Todas las piezas son elaboradas a mano por artesanas de Chiapas · Comercio justo certificado
