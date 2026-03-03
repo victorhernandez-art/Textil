@@ -95,10 +95,10 @@ export function HeroSection() {
             Arte
           </motion.h1>
         </div>
-        <div className="overflow-hidden mb-2" style={{ paddingBottom: '0.5em' }}>
+        <div className="mb-2">
           <motion.h1
-            initial={{ y: 120 }}
-            animate={{ y: 0 }}
+            initial={{ y: 120, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
             style={{
               fontFamily: 'var(--font-heading)',
