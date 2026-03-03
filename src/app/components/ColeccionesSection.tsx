@@ -168,7 +168,7 @@ export function ColeccionesSection() {
   return (
     <>
     <CatalogoModal open={catalogoOpen} onClose={() => setCatalogoOpen(false)} />
-    <section id="colecciones" style={{ background: '#590C8A', padding: 'clamp(80px, 12vw, 140px) 0' }}>
+    <section id="colecciones" style={{ background: '#FAF8F3', padding: 'clamp(80px, 12vw, 140px) 0' }}>
       <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">

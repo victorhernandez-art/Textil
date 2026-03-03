@@ -26,7 +26,7 @@ export function ManifiestoSection() {
   return (
     <section
       className="relative overflow-hidden"
-      style={{ background: '#590C8A', padding: 'clamp(80px, 12vw, 140px) 0' }}
+      style={{ background: '#FAF8F3', padding: 'clamp(80px, 12vw, 140px) 0' }}
     >
       {/* Decorative background text */}
       <div
