@@ -24,7 +24,7 @@ export function GaleriaSection() {
   return (
     <section
       id="galeria"
-      style={{ background: '#FAF8F3', padding: 'clamp(80px, 10vw, 120px) 0' }}
+      style={{ background: '#590C8A', padding: 'clamp(80px, 10vw, 120px) 0' }}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-16 lg:px-24">
         {/* Header */}

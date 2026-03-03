@@ -293,7 +293,7 @@ function ProductDetail({ prenda, onClose }: { prenda: Prenda; onClose: () => voi
       exit={{ opacity: 0, x: 60 }}
       transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
       className="absolute inset-0 flex flex-col md:flex-row overflow-y-auto"
-      style={{ background: '#FAF8F3', zIndex: 10 }}
+      style={{ background: '#590C8A', zIndex: 10 }}
     >
       {/* Back */}
       <button
@@ -423,7 +423,7 @@ export function CatalogoModal({ open, onClose }: CatalogoModalProps) {
           {/* Panel */}
           <motion.div
             className="fixed inset-0 z-50 flex flex-col overflow-hidden"
-            style={{ background: '#FAF8F3', top: '4vh', borderRadius: '4px 4px 0 0' }}
+            style={{ background: '#590C8A', top: '4vh', borderRadius: '4px 4px 0 0' }}
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
             exit={{ y: '100%' }}

@@ -10,7 +10,7 @@ import { FooterSection } from './components/FooterSection';
 
 export default function App() {
   return (
-    <div className="min-h-screen" style={{ background: '#FAF8F3' }}>
+    <div className="min-h-screen" style={{ background: '#590C8A' }}>
       <NavBar />
       <HeroSection />
       <ManifiestoSection />

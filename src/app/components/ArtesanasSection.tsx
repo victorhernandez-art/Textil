@@ -47,7 +47,7 @@ export function ArtesanasSection() {
       />
       <div
         className="absolute bottom-0 left-0 right-0 h-32"
-        style={{ background: 'linear-gradient(to top, #FAF8F3, transparent)' }}
+        style={{ background: 'linear-gradient(to top, #590C8A, transparent)' }}
       />
 
       {/* Content */}
