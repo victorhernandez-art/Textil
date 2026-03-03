@@ -95,7 +95,7 @@ export function HeroSection() {
             Arte
           </motion.h1>
         </div>
-        <div className="overflow-hidden mb-2" style={{ paddingBottom: '0.2em' }}>
+        <div className="overflow-hidden mb-2" style={{ paddingBottom: '0.5em' }}>
           <motion.h1
             initial={{ y: 120 }}
             animate={{ y: 0 }}
